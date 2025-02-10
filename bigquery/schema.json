@@ -1,0 +1,33 @@
+[
+    {
+      "name": "id_orden",
+      "type": "INTEGER",
+      "mode": "REQUIRED"
+    },
+    {
+      "name": "numero_mesa",
+      "type": "INTEGER",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "cantidad_clientes",
+      "type": "INTEGER",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "estado_orden",
+      "type": "STRING",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "monto_total",
+      "type": "FLOAT",
+      "mode": "NULLABLE"
+    },
+    {
+      "name": "fecha_orden",
+      "type": "TIMESTAMP",
+      "mode": "NULLABLE"
+    }
+  ]
+  

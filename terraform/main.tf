@@ -1,5 +1,5 @@
 provider "google" {
-  credentials = file("C:/Users/nazho/OneDrive/Escritorio/python/TerraQuery/terraquery-credentials.json")
+  credentials = file("C:/turuta/terraquery-credentials.json")
   project     = "terraquery"
   region      = "us-central1"
 }

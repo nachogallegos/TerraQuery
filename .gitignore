@@ -1,2 +1,14 @@
-
+# Ignorar el archivo de credenciales de Google Cloud
 terraquery-credentials.json
+
+# Ignorar archivos generados por Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos de configuración de editor
+.idea/
+.vscode/
